@@ -5,7 +5,7 @@ import folium  # Import folium for mapping
 from googlemaps.exceptions import ApiError
 
 # Initialize the Google Maps client with your API key
-API_KEY = 'AIzaSyCkMvK4m4ghcHGexnj_j-TKefETNXQnXoo'  # Do not share this apikey
+API_KEY = 'API_KEY'  # Do not share this apikey
 gmaps = googlemaps.Client(key=API_KEY)
 
 # Example list of addresses (Depot + Delivery Locations)
