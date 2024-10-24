@@ -126,7 +126,7 @@ def greedy(api_key, locations):
         min_distance = matrix[i][j]
         total_distance += min_distance
 
-        # Started from the node where we finished as well.
+        # Print the route path and distance covered, from given starting city and ending at the same city.
         print("Minimum distance obtained using Greedy heuristic approach is:", total_distance)
         print("And the route is", route)
 
